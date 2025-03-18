@@ -1,0 +1,297 @@
+2025-03-16 22:30:45,721 - model_training - INFO - Starting model training pipeline
+2025-03-16 22:30:45,722 - model_training - INFO - Loading data from data\banking_customer_data.csv
+2025-03-16 22:31:52,594 - model_training - INFO - Starting model training pipeline
+2025-03-16 22:31:52,596 - model_training - INFO - Loading data from data\banking_customer_data.csv
+2025-03-16 22:52:03,130 - model_training - INFO - Starting model training pipeline
+2025-03-16 22:52:03,130 - model_training - ERROR - Data file not found: data\sample_banking_data.csv
+2025-03-16 22:52:03,130 - model_training - INFO - Checking current directory...
+2025-03-16 22:52:03,167 - model_training - INFO - Found CSV file: .\data\banking_customer_data.csv
+2025-03-16 22:52:03,168 - model_training - INFO - Found CSV file: .\data\customer_risk_scores.csv
+2025-03-16 22:52:03,168 - model_training - INFO - Found CSV file: .\data\full\customer_risk_scores_full.csv
+2025-03-16 22:52:03,168 - model_training - INFO - Found CSV file: .\data\full\full_banking_data.csv
+2025-03-16 22:52:03,169 - model_training - INFO - Found CSV file: .\data\sample\customer_risk_scores_sample.csv
+2025-03-16 22:52:03,169 - model_training - INFO - Found CSV file: .\data\sample\sample_banking_data.csv
+2025-03-16 22:52:03,203 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\matplotlib\mpl-data\sample_data\data_x_x2_x3.csv
+2025-03-16 22:52:03,203 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\matplotlib\mpl-data\sample_data\msft.csv
+2025-03-16 22:52:03,203 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\matplotlib\mpl-data\sample_data\Stocks.csv
+2025-03-16 22:52:03,230 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\random\tests\data\mt19937-testset-1.csv
+2025-03-16 22:52:03,230 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\random\tests\data\mt19937-testset-2.csv
+2025-03-16 22:52:03,230 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\random\tests\data\pcg64-testset-1.csv
+2025-03-16 22:52:03,231 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\random\tests\data\pcg64-testset-2.csv
+2025-03-16 22:52:03,231 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\random\tests\data\pcg64dxsm-testset-1.csv
+2025-03-16 22:52:03,231 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\random\tests\data\pcg64dxsm-testset-2.csv
+2025-03-16 22:52:03,231 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\random\tests\data\philox-testset-1.csv
+2025-03-16 22:52:03,231 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\random\tests\data\philox-testset-2.csv
+2025-03-16 22:52:03,231 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\random\tests\data\sfc64-testset-1.csv
+2025-03-16 22:52:03,231 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\random\tests\data\sfc64-testset-2.csv
+2025-03-16 22:52:03,236 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-arccos.csv
+2025-03-16 22:52:03,236 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-arccosh.csv
+2025-03-16 22:52:03,236 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-arcsin.csv
+2025-03-16 22:52:03,237 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-arcsinh.csv
+2025-03-16 22:52:03,237 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-arctan.csv
+2025-03-16 22:52:03,237 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-arctanh.csv
+2025-03-16 22:52:03,237 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-cbrt.csv
+2025-03-16 22:52:03,237 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-cos.csv
+2025-03-16 22:52:03,237 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-cosh.csv
+2025-03-16 22:52:03,237 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-exp.csv
+2025-03-16 22:52:03,237 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-exp2.csv
+2025-03-16 22:52:03,237 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-expm1.csv
+2025-03-16 22:52:03,237 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-log.csv
+2025-03-16 22:52:03,237 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-log10.csv
+2025-03-16 22:52:03,237 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-log1p.csv
+2025-03-16 22:52:03,239 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-log2.csv
+2025-03-16 22:52:03,239 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-sin.csv
+2025-03-16 22:52:03,239 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-sinh.csv
+2025-03-16 22:52:03,239 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-tan.csv
+2025-03-16 22:52:03,239 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\numpy\_core\tests\data\umath-validation-set-tanh.csv
+2025-03-16 22:52:03,320 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\sklearn\datasets\data\boston_house_prices.csv
+2025-03-16 22:52:03,320 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\sklearn\datasets\data\breast_cancer.csv
+2025-03-16 22:52:03,320 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\sklearn\datasets\data\iris.csv
+2025-03-16 22:52:03,320 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\sklearn\datasets\data\linnerud_exercise.csv
+2025-03-16 22:52:03,320 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\sklearn\datasets\data\linnerud_physiological.csv
+2025-03-16 22:52:03,320 - model_training - INFO - Found CSV file: .\venv\Lib\site-packages\sklearn\datasets\data\wine_data.csv
+2025-03-16 22:54:55,167 - model_training - INFO - Starting model training pipeline
+2025-03-16 22:54:55,168 - model_training - INFO - Loading data from data\sample\sample_banking_data.csv
+2025-03-16 22:54:55,171 - model_training - INFO - Applying feature engineering
+2025-03-16 22:54:55,197 - model_training - INFO - Splitting into features and target
+2025-03-16 22:54:55,199 - model_training - INFO - Splitting into training and testing sets
+2025-03-16 22:54:55,200 - model_training - INFO - Applying preprocessing pipeline
+2025-03-16 22:58:53,180 - model_training - INFO - Starting model training pipeline
+2025-03-16 22:58:53,180 - model_training - INFO - Loading data from data\feature_engineered_data.csv
+2025-03-16 22:58:53,185 - model_training - INFO - Applying feature engineering
+2025-03-16 22:58:53,205 - model_training - INFO - Splitting into features and target
+2025-03-16 22:58:53,205 - model_training - INFO - Splitting into training and testing sets
+2025-03-16 22:58:53,205 - model_training - INFO - Applying preprocessing pipeline
+2025-03-16 23:13:37,922 - model_training - INFO - Starting model training pipeline
+2025-03-16 23:13:37,922 - model_training - INFO - Loading data from data\feature_engineered_data.csv
+2025-03-16 23:13:37,928 - model_training - INFO - Applying feature engineering
+2025-03-16 23:13:37,947 - model_training - INFO - Splitting into features and target
+2025-03-16 23:13:37,947 - model_training - INFO - Splitting into training and testing sets
+2025-03-16 23:13:37,957 - model_training - INFO - Applying preprocessing pipeline
+2025-03-16 23:23:52,497 - model_training - INFO - Starting model training pipeline
+2025-03-16 23:23:52,498 - model_training - INFO - Loading data from data\feature_engineered_data.csv
+2025-03-16 23:23:52,513 - model_training - INFO - Applying feature engineering
+2025-03-16 23:23:52,545 - model_training - INFO - Splitting into features and target
+2025-03-16 23:23:52,546 - model_training - INFO - Splitting into training and testing sets
+2025-03-16 23:23:52,549 - model_training - INFO - Applying preprocessing pipeline
+2025-03-16 23:23:52,560 - model_training - INFO - Evaluating multiple models
+2025-03-16 23:23:52,561 - model_training - INFO - Training Logistic Regression
+2025-03-16 23:23:52,578 - model_training - INFO - Logistic Regression - Accuracy: 0.7000, ROC-AUC: 0.5451
+2025-03-16 23:23:52,578 - model_training - INFO - Training Random Forest
+2025-03-16 23:23:52,727 - model_training - INFO - Random Forest - Accuracy: 0.7400, ROC-AUC: 0.5533
+2025-03-16 23:23:52,728 - model_training - INFO - Training Gradient Boosting
+2025-03-16 23:23:52,924 - model_training - INFO - Gradient Boosting - Accuracy: 0.7000, ROC-AUC: 0.5352
+2025-03-16 23:23:52,926 - model_training - INFO - Training XGBoost
+2025-03-16 23:23:52,994 - model_training - INFO - XGBoost - Accuracy: 0.7300, ROC-AUC: 0.5789
+2025-03-16 23:23:52,994 - model_training - INFO - Training LightGBM
+2025-03-16 23:23:53,220 - model_training - INFO - LightGBM - Accuracy: 0.6800, ROC-AUC: 0.6027
+2025-03-16 23:23:53,221 - model_training - INFO - Best model: LightGBM with ROC-AUC: 0.6027
+2025-03-16 23:23:54,268 - model_training - INFO - Tuning hyperparameters for LightGBM
+2025-03-16 23:24:27,579 - model_training - INFO - Starting model training pipeline
+2025-03-16 23:24:27,580 - model_training - INFO - Loading data from data\feature_engineered_data.csv
+2025-03-16 23:24:27,601 - model_training - INFO - Applying feature engineering
+2025-03-16 23:24:27,642 - model_training - INFO - Splitting into features and target
+2025-03-16 23:24:27,644 - model_training - INFO - Splitting into training and testing sets
+2025-03-16 23:24:27,646 - model_training - INFO - Applying preprocessing pipeline
+2025-03-16 23:24:27,658 - model_training - INFO - Evaluating multiple models
+2025-03-16 23:24:27,659 - model_training - INFO - Training Logistic Regression
+2025-03-16 23:24:27,679 - model_training - INFO - Logistic Regression - Accuracy: 0.7000, ROC-AUC: 0.5451
+2025-03-16 23:24:27,680 - model_training - INFO - Training Random Forest
+2025-03-16 23:24:27,854 - model_training - INFO - Random Forest - Accuracy: 0.7400, ROC-AUC: 0.5533
+2025-03-16 23:24:27,854 - model_training - INFO - Training Gradient Boosting
+2025-03-16 23:24:28,090 - model_training - INFO - Gradient Boosting - Accuracy: 0.7000, ROC-AUC: 0.5352
+2025-03-16 23:24:28,090 - model_training - INFO - Training XGBoost
+2025-03-16 23:24:28,164 - model_training - INFO - XGBoost - Accuracy: 0.7300, ROC-AUC: 0.5789
+2025-03-16 23:24:28,165 - model_training - INFO - Training LightGBM
+2025-03-16 23:24:28,335 - model_training - INFO - LightGBM - Accuracy: 0.6800, ROC-AUC: 0.6027
+2025-03-16 23:24:28,336 - model_training - INFO - Best model: LightGBM with ROC-AUC: 0.6027
+2025-03-16 23:24:28,704 - model_training - INFO - Tuning hyperparameters for LightGBM
+2025-03-16 23:25:03,678 - model_training - INFO - Best parameters for LightGBM: {'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100, 'num_leaves': 31}
+2025-03-16 23:25:03,679 - model_training - INFO - Detailed evaluation for LightGBM
+2025-03-16 23:25:03,712 - model_training - INFO - LightGBM - Accuracy: 0.7200, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, ROC-AUC: 0.5551
+2025-03-16 23:25:03,713 - model_training - INFO - LightGBM - Confusion Matrix:
+[[72  0]
+ [28  0]]
+2025-03-16 23:25:03,714 - model_training - INFO - LightGBM - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.72      1.00      0.84        72
+           1       0.00      0.00      0.00        28
+
+    accuracy                           0.72       100
+   macro avg       0.36      0.50      0.42       100
+weighted avg       0.52      0.72      0.60       100
+
+2025-03-16 23:25:04,360 - model_training - INFO - Calculating SHAP values for LightGBM
+2025-03-16 23:25:04,994 - model_training - INFO - Model and pipeline saved successfully
+2025-03-16 23:25:04,994 - model_training - INFO - Generating risk scores
+2025-03-17 14:03:33,187 - model_training - INFO - Starting model training pipeline
+2025-03-17 14:03:33,187 - model_training - INFO - Loading data from data/banking_customer_data.csv
+2025-03-17 14:10:15,587 - model_training - INFO - Starting model training pipeline
+2025-03-17 14:10:15,587 - model_training - INFO - Loading data from data/feature_engineered_data.csv
+2025-03-17 14:10:15,603 - model_training - INFO - Class distribution in original data: {0: 360, 1: 140}
+2025-03-17 14:10:15,603 - model_training - INFO - Churn ratio: 28.00%
+2025-03-17 14:10:15,603 - model_training - INFO - Applying feature engineering
+2025-03-17 14:10:15,638 - model_training - INFO - Splitting into features and target
+2025-03-17 14:10:15,642 - model_training - INFO - Splitting into training and testing sets
+2025-03-17 14:10:15,643 - model_training - INFO - Applying preprocessing pipeline
+2025-03-17 14:10:15,656 - model_training - INFO - Training data shape: (400, 39)
+2025-03-17 14:10:15,656 - model_training - INFO - Testing data shape: (100, 39)
+2025-03-17 14:10:15,656 - model_training - INFO - Evaluating multiple models with handling for class imbalance
+2025-03-17 14:10:15,657 - model_training - INFO - Class distribution in training data: {np.int64(0): np.int64(288), np.int64(1): np.int64(112)}
+2025-03-17 14:10:15,657 - model_training - INFO - Using class weights: {np.int64(0): np.float64(0.6944444444444444), np.int64(1): np.float64(1.7857142857142858)}
+2025-03-17 14:10:15,658 - model_training - INFO - Training Logistic Regression
+2025-03-17 14:10:15,672 - model_training - INFO - Logistic Regression - Accuracy: 0.5700, Precision: 0.3256, Recall: 0.5000, F1: 0.3944, ROC-AUC: 0.5476
+2025-03-17 14:10:15,674 - model_training - INFO - Logistic Regression Confusion Matrix:
+[[43 29]
+ [14 14]]
+2025-03-17 14:10:15,675 - model_training - INFO - Training Random Forest
+2025-03-17 14:10:15,815 - model_training - INFO - Random Forest - Accuracy: 0.7400, Precision: 0.7500, Recall: 0.1071, F1: 0.1875, ROC-AUC: 0.5675
+2025-03-17 14:10:15,831 - model_training - INFO - Random Forest Confusion Matrix:
+[[71  1]
+ [25  3]]
+2025-03-17 14:10:15,831 - model_training - INFO - Training Gradient Boosting
+2025-03-17 14:10:16,026 - model_training - INFO - Gradient Boosting - Accuracy: 0.7000, Precision: 0.4167, Recall: 0.1786, F1: 0.2500, ROC-AUC: 0.5352
+2025-03-17 14:10:16,026 - model_training - INFO - Gradient Boosting Confusion Matrix:
+[[65  7]
+ [23  5]]
+2025-03-17 14:10:16,026 - model_training - INFO - Training XGBoost
+2025-03-17 14:10:16,129 - model_training - INFO - XGBoost - Accuracy: 0.7400, Precision: 0.5455, Recall: 0.4286, F1: 0.4800, ROC-AUC: 0.6399
+2025-03-17 14:10:16,129 - model_training - INFO - XGBoost Confusion Matrix:
+[[62 10]
+ [16 12]]
+2025-03-17 14:10:16,129 - model_training - INFO - Training LightGBM
+2025-03-17 14:10:16,319 - model_training - INFO - LightGBM - Accuracy: 0.6700, Precision: 0.4000, Recall: 0.3571, F1: 0.3774, ROC-AUC: 0.6136
+2025-03-17 14:10:16,320 - model_training - INFO - LightGBM Confusion Matrix:
+[[57 15]
+ [18 10]]
+2025-03-17 14:10:16,321 - model_training - INFO - Training SMOTE + Random Forest
+2025-03-17 14:10:16,590 - model_training - INFO - SMOTE + Random Forest - Accuracy: 0.6500, Precision: 0.3158, Recall: 0.2143, F1: 0.2553, ROC-AUC: 0.5466
+2025-03-17 14:10:16,590 - model_training - INFO - SMOTE + Random Forest Confusion Matrix:
+[[59 13]
+ [22  6]]
+2025-03-17 14:10:16,590 - model_training - INFO - Training SMOTE + XGBoost
+2025-03-17 14:10:16,692 - model_training - INFO - SMOTE + XGBoost - Accuracy: 0.6700, Precision: 0.3810, Recall: 0.2857, F1: 0.3265, ROC-AUC: 0.5670
+2025-03-17 14:10:16,694 - model_training - INFO - SMOTE + XGBoost Confusion Matrix:
+[[59 13]
+ [20  8]]
+2025-03-17 14:10:16,694 - model_training - INFO - Best model: XGBoost with F1 Score: 0.4800
+2025-03-17 14:10:17,814 - model_training - INFO - Finding optimal classification threshold
+2025-03-17 14:10:17,818 - model_training - INFO - Threshold: 0.10, F1 Score: 0.4865
+2025-03-17 14:10:17,822 - model_training - INFO - Threshold: 0.15, F1 Score: 0.5217
+2025-03-17 14:10:17,824 - model_training - INFO - Threshold: 0.20, F1 Score: 0.5075
+2025-03-17 14:10:17,827 - model_training - INFO - Threshold: 0.25, F1 Score: 0.5000
+2025-03-17 14:10:17,830 - model_training - INFO - Threshold: 0.30, F1 Score: 0.5172
+2025-03-17 14:10:17,832 - model_training - INFO - Threshold: 0.35, F1 Score: 0.5263
+2025-03-17 14:10:17,835 - model_training - INFO - Threshold: 0.40, F1 Score: 0.4528
+2025-03-17 14:10:17,837 - model_training - INFO - Threshold: 0.45, F1 Score: 0.4615
+2025-03-17 14:10:17,841 - model_training - INFO - Threshold: 0.50, F1 Score: 0.4800
+2025-03-17 14:10:17,844 - model_training - INFO - Threshold: 0.55, F1 Score: 0.4255
+2025-03-17 14:10:17,847 - model_training - INFO - Threshold: 0.60, F1 Score: 0.4000
+2025-03-17 14:10:17,849 - model_training - INFO - Threshold: 0.65, F1 Score: 0.3636
+2025-03-17 14:10:17,852 - model_training - INFO - Threshold: 0.70, F1 Score: 0.3333
+2025-03-17 14:10:17,854 - model_training - INFO - Threshold: 0.75, F1 Score: 0.3000
+2025-03-17 14:10:17,858 - model_training - INFO - Threshold: 0.80, F1 Score: 0.2632
+2025-03-17 14:10:17,860 - model_training - INFO - Threshold: 0.85, F1 Score: 0.1667
+2025-03-17 14:10:17,861 - model_training - INFO - Optimal threshold: 0.35 with F1 Score: 0.5263
+2025-03-17 14:10:18,058 - model_training - INFO - Performing detailed model evaluation with threshold 0.3500000000000001
+2025-03-17 14:10:18,068 - model_training - INFO - Final model evaluation with threshold 0.3500000000000001:
+2025-03-17 14:10:18,068 - model_training - INFO - Accuracy: 0.7300
+2025-03-17 14:10:18,068 - model_training - INFO - Precision: 0.5172
+2025-03-17 14:10:18,068 - model_training - INFO - Recall: 0.5357
+2025-03-17 14:10:18,068 - model_training - INFO - F1 Score: 0.5263
+2025-03-17 14:10:18,069 - model_training - INFO - ROC-AUC: 0.6399
+2025-03-17 14:10:18,070 - model_training - INFO - Confusion Matrix:
+[[58 14]
+ [13 15]]
+2025-03-17 14:10:18,950 - model_training - INFO - Model saved with optimal threshold: 0.3500000000000001
+2025-03-17 14:10:18,950 - model_training - INFO - Generating risk scores for test customers
+2025-03-17 14:10:18,952 - model_training - INFO - X_test shape: (100, 39)
+2025-03-17 14:10:18,952 - model_training - INFO - customer_ids shape: (100,)
+2025-03-17 14:10:18,964 - model_training - INFO - Risk score generation complete: 100 customers scored
+2025-03-17 14:10:18,968 - model_training - INFO - Risk distribution: [{'RiskCategory': 'Low', 'CustomerCount': 70, 'AverageChurnProbability': 0.06861496716737747}, {'RiskCategory': 'Medium', 'CustomerCount': 16, 'AverageChurnProbability': 0.4946662485599518}, {'RiskCategory': 'High', 'CustomerCount': 14, 'AverageChurnProbability': 0.873132586479187}]
+2025-03-17 14:10:18,968 - model_training - INFO - Model training pipeline completed successfully
+2025-03-17 14:40:57,631 - model_training - INFO - Starting model training pipeline
+2025-03-17 14:40:57,631 - model_training - INFO - Loading data from data/feature_engineered_data.csv
+2025-03-17 14:40:57,631 - model_training - INFO - Class distribution in original data: {0: 360, 1: 140}
+2025-03-17 14:40:57,631 - model_training - INFO - Churn ratio: 28.00%
+2025-03-17 14:40:57,631 - model_training - INFO - Applying feature engineering
+2025-03-17 14:40:57,674 - model_training - INFO - Splitting into features and target
+2025-03-17 14:40:57,675 - model_training - INFO - Splitting into training and testing sets
+2025-03-17 14:40:57,675 - model_training - INFO - Applying preprocessing pipeline
+2025-03-17 14:40:57,689 - model_training - INFO - Training data shape: (400, 39)
+2025-03-17 14:40:57,689 - model_training - INFO - Testing data shape: (100, 39)
+2025-03-17 14:40:57,689 - model_training - INFO - Evaluating multiple models with handling for class imbalance
+2025-03-17 14:40:57,689 - model_training - INFO - Class distribution in training data: {np.int64(0): np.int64(288), np.int64(1): np.int64(112)}
+2025-03-17 14:40:57,689 - model_training - INFO - Using class weights: {np.int64(0): np.float64(0.6944444444444444), np.int64(1): np.float64(1.7857142857142858)}
+2025-03-17 14:40:57,689 - model_training - INFO - Training Logistic Regression
+2025-03-17 14:40:57,703 - model_training - INFO - Logistic Regression - Accuracy: 0.5700, Precision: 0.3256, Recall: 0.5000, F1: 0.3944, ROC-AUC: 0.5476
+2025-03-17 14:40:57,703 - model_training - INFO - Logistic Regression Confusion Matrix:
+[[43 29]
+ [14 14]]
+2025-03-17 14:40:57,703 - model_training - INFO - Training Random Forest
+2025-03-17 14:40:57,852 - model_training - INFO - Random Forest - Accuracy: 0.7400, Precision: 0.7500, Recall: 0.1071, F1: 0.1875, ROC-AUC: 0.5675
+2025-03-17 14:40:57,852 - model_training - INFO - Random Forest Confusion Matrix:
+[[71  1]
+ [25  3]]
+2025-03-17 14:40:57,852 - model_training - INFO - Training Gradient Boosting
+2025-03-17 14:40:58,067 - model_training - INFO - Gradient Boosting - Accuracy: 0.7000, Precision: 0.4167, Recall: 0.1786, F1: 0.2500, ROC-AUC: 0.5352
+2025-03-17 14:40:58,067 - model_training - INFO - Gradient Boosting Confusion Matrix:
+[[65  7]
+ [23  5]]
+2025-03-17 14:40:58,067 - model_training - INFO - Training XGBoost
+2025-03-17 14:40:58,141 - model_training - INFO - XGBoost - Accuracy: 0.7400, Precision: 0.5455, Recall: 0.4286, F1: 0.4800, ROC-AUC: 0.6399
+2025-03-17 14:40:58,143 - model_training - INFO - XGBoost Confusion Matrix:
+[[62 10]
+ [16 12]]
+2025-03-17 14:40:58,143 - model_training - INFO - Training LightGBM
+2025-03-17 14:40:58,308 - model_training - INFO - LightGBM - Accuracy: 0.6700, Precision: 0.4000, Recall: 0.3571, F1: 0.3774, ROC-AUC: 0.6136
+2025-03-17 14:40:58,309 - model_training - INFO - LightGBM Confusion Matrix:
+[[57 15]
+ [18 10]]
+2025-03-17 14:40:58,309 - model_training - INFO - Training SMOTE + Random Forest
+2025-03-17 14:40:58,572 - model_training - INFO - SMOTE + Random Forest - Accuracy: 0.6500, Precision: 0.3158, Recall: 0.2143, F1: 0.2553, ROC-AUC: 0.5466
+2025-03-17 14:40:58,572 - model_training - INFO - SMOTE + Random Forest Confusion Matrix:
+[[59 13]
+ [22  6]]
+2025-03-17 14:40:58,572 - model_training - INFO - Training SMOTE + XGBoost
+2025-03-17 14:40:58,685 - model_training - INFO - SMOTE + XGBoost - Accuracy: 0.6700, Precision: 0.3810, Recall: 0.2857, F1: 0.3265, ROC-AUC: 0.5670
+2025-03-17 14:40:58,687 - model_training - INFO - SMOTE + XGBoost Confusion Matrix:
+[[59 13]
+ [20  8]]
+2025-03-17 14:40:58,687 - model_training - INFO - Best model: XGBoost with F1 Score: 0.4800
+2025-03-17 14:40:59,074 - model_training - INFO - Finding optimal classification threshold
+2025-03-17 14:40:59,083 - model_training - INFO - Threshold: 0.10, F1 Score: 0.4865
+2025-03-17 14:40:59,087 - model_training - INFO - Threshold: 0.15, F1 Score: 0.5217
+2025-03-17 14:40:59,089 - model_training - INFO - Threshold: 0.20, F1 Score: 0.5075
+2025-03-17 14:40:59,091 - model_training - INFO - Threshold: 0.25, F1 Score: 0.5000
+2025-03-17 14:40:59,093 - model_training - INFO - Threshold: 0.30, F1 Score: 0.5172
+2025-03-17 14:40:59,095 - model_training - INFO - Threshold: 0.35, F1 Score: 0.5263
+2025-03-17 14:40:59,097 - model_training - INFO - Threshold: 0.40, F1 Score: 0.4528
+2025-03-17 14:40:59,099 - model_training - INFO - Threshold: 0.45, F1 Score: 0.4615
+2025-03-17 14:40:59,102 - model_training - INFO - Threshold: 0.50, F1 Score: 0.4800
+2025-03-17 14:40:59,103 - model_training - INFO - Threshold: 0.55, F1 Score: 0.4255
+2025-03-17 14:40:59,106 - model_training - INFO - Threshold: 0.60, F1 Score: 0.4000
+2025-03-17 14:40:59,108 - model_training - INFO - Threshold: 0.65, F1 Score: 0.3636
+2025-03-17 14:40:59,111 - model_training - INFO - Threshold: 0.70, F1 Score: 0.3333
+2025-03-17 14:40:59,114 - model_training - INFO - Threshold: 0.75, F1 Score: 0.3000
+2025-03-17 14:40:59,116 - model_training - INFO - Threshold: 0.80, F1 Score: 0.2632
+2025-03-17 14:40:59,118 - model_training - INFO - Threshold: 0.85, F1 Score: 0.1667
+2025-03-17 14:40:59,118 - model_training - INFO - Optimal threshold: 0.35 with F1 Score: 0.5263
+2025-03-17 14:40:59,316 - model_training - INFO - Performing detailed model evaluation with threshold 0.3500000000000001
+2025-03-17 14:40:59,330 - model_training - INFO - Final model evaluation with threshold 0.3500000000000001:
+2025-03-17 14:40:59,330 - model_training - INFO - Accuracy: 0.7300
+2025-03-17 14:40:59,330 - model_training - INFO - Precision: 0.5172
+2025-03-17 14:40:59,330 - model_training - INFO - Recall: 0.5357
+2025-03-17 14:40:59,330 - model_training - INFO - F1 Score: 0.5263
+2025-03-17 14:40:59,330 - model_training - INFO - ROC-AUC: 0.6399
+2025-03-17 14:40:59,332 - model_training - INFO - Confusion Matrix:
+[[58 14]
+ [13 15]]
+2025-03-17 14:41:00,212 - model_training - INFO - Model saved with optimal threshold: 0.3500000000000001
+2025-03-17 14:41:00,212 - model_training - INFO - Generating risk scores for test customers
+2025-03-17 14:41:00,214 - model_training - INFO - X_test shape: (100, 39)
+2025-03-17 14:41:00,214 - model_training - INFO - customer_ids shape: (100,)
+2025-03-17 14:41:00,225 - model_training - INFO - Risk score generation complete: 100 customers scored
+2025-03-17 14:41:00,228 - model_training - INFO - Risk distribution: [{'RiskCategory': 'Low', 'CustomerCount': 70, 'AverageChurnProbability': 0.06861496716737747}, {'RiskCategory': 'Medium', 'CustomerCount': 16, 'AverageChurnProbability': 0.4946662485599518}, {'RiskCategory': 'High', 'CustomerCount': 14, 'AverageChurnProbability': 0.873132586479187}]
+2025-03-17 14:41:00,228 - model_training - INFO - Model training pipeline completed successfully

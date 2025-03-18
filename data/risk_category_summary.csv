@@ -1,0 +1,4 @@
+RiskCategory,CustomerCount,AverageChurnProbability
+Low,70,0.06861497
+Medium,16,0.49466625
+High,14,0.8731326
