@@ -1,18 +1,16 @@
-// frontend/src/components/CustomerDetailView.jsx - Updated with React Router navigation
+
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';  // Import hooks
+import { useParams, useNavigate } from 'react-router-dom';  
 import { ArrowLeft } from 'lucide-react';
 import { fetchCustomerDetails } from '../services/api';
-
-// Import components
 import CustomerRiskFactorsChart from './customers/CustomerRiskFactorsChart';
 import CustomerActivityChart from './customers/CustomerActivityChart';
 import RetentionActionsTable from './customers/RetentionActionsTable';
 import LoadingSpinner from './common/LoadingSpinner';
 
 const CustomerDetailView = () => {
-  const { customerId } = useParams();  // Get customerId from URL parameter
-  const navigate = useNavigate();      // Initialize navigation hook
+  const { customerId } = useParams();  
+  const navigate = useNavigate();      
   const [customerData, setCustomerData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -43,7 +41,7 @@ const CustomerDetailView = () => {
     return <LoadingSpinner message={`Loading customer ${customerId}...`} />;
   }
   
-  // Show error message if there's an error
+ 
   if (error) {
     return (
       <div className="p-4 bg-red-100 border border-red-400 text-red-700 rounded">
