@@ -3,6 +3,12 @@
 ## 📌 Project Overview
 The **Banking Churn Prediction System** is an advanced data-driven platform that helps financial institutions predict customer churn. It provides interactive visualizations, risk segmentation, and actionable insights to enhance customer retention strategies.
 
+## Branch Information
+
+- The **main code** for this project can be found in the `master` branch.
+- If you're looking for the latest version of the project, please make sure you are on the `master` branch.
+
+
 ## 🚀 Features
 - **Machine Learning Model**: XGBoost-based churn prediction.
 - **Risk Segmentation**: Categorizes customers into Low, Medium, and High-risk groups.
