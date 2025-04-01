@@ -1,16 +1,4 @@
-// frontend/src/services/api.js
-// Updated to use environment variables correctly
-
-/**
- * API service for communicating with the churn prediction backend
- */
-// Use environment variable if available, otherwise fall back to default
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
-
-/**
- * Fetch dashboard summary data
- * @returns {Promise<Object>} Dashboard summary data
- */
 export const fetchDashboardSummary = async () => {
   try {
     const response = await fetch(`${API_BASE_URL}/dashboard/summary`);
